@@ -1,2 +1,2 @@
 # python_database
-accessing database by pyhton
+accessing database by python
