@@ -4,8 +4,8 @@ import urllib
 
 excel_file = 'excel_files/data.xlsx'
 table_name = 'Average_PF'
-server = 'IOT\\MSSQLSERVER01'
-database = 'HarshAmpl'
+server = ''
+database = ''
 
 df = pd.read_excel(excel_file)
 df.columns = df.columns.str.strip()
