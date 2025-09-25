@@ -1,12 +1,12 @@
 import pandas as pd
 from sqlalchemy import create_engine
 import urllib
-import os
+
 
 excel_file = 'excel_files/data.xlsx'
 table_name = 'Average_PF'
-server = os.getenv("DB_SERVER")
-database = os.getenv("DB_DATABASE")
+server = ""
+database = ""
 
 df = pd.read_excel(excel_file)
 df.columns = df.columns.str.strip()
